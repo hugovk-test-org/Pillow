@@ -8,8 +8,8 @@ on:
       - "wheels/*"
       - "winbuild/build_prepare.py"
       - "winbuild/fribidi.cmake"
-    tags:
-      - "*"
+#    tags:
+#      - "*"
   pull_request:
     paths:
       - ".ci/requirements-cibw.txt"
